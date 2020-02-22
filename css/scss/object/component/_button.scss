@@ -1,0 +1,19 @@
+.c-btn--request__top {
+  width:262px;
+  font: "Hiragino Kaku Gothic Pro";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  display:block;
+  text-align:center;
+  padding:8px 0 10px;
+  color:white;
+  background-color: #DA6B64;
+  border-radius: 25px;
+}
+
+.c-btn--request__top:active {
+  border-bottom: solid 2px #fd9535;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}

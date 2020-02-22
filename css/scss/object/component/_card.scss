@@ -1,0 +1,87 @@
+.c-basic-card {
+  margin: 10px;
+  width: 377px;
+  border-style:solid;
+  border-color:white;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+}
+.c-basic-card--img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.c-basic-card--content {
+  padding: 20px;
+}
+.c-basic-card--title {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #333;
+  background-color:#EBB94D ;
+  border-radius: 7px;
+}
+.c-basic-card--text {
+  color: #777;
+  font-size: 12px;
+  line-height: 19px;
+}
+.c-card-five {
+  display:flex;
+  justify-content: center;
+  &--card{
+    margin-top: 24px;
+    width:133px;
+    list-style: none;
+  }
+  &--title {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+  }
+  &--img{
+    text-align: center;
+  }
+}
+
+.c-card-five {
+  display:flex;
+  justify-content: center;
+  &--card{
+    margin-top: 24px;
+    width:133px;
+    list-style: none;
+  }
+  &--title {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+  }
+  &--img{
+    text-align: center;
+  }
+}
+
+.c-card-three {
+  display:flex;
+  justify-content: center;
+  &__img{
+    text-align: center;
+  }
+  &__card{
+    margin-top: 24px;
+    width:133px;
+    list-style: none;
+  }
+  &__title {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+  }
+}

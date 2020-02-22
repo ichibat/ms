@@ -1,0 +1,74 @@
+.c-content-center1{
+  background-image: url("/Users/tims/Dropbox/Apps/Byword/coding/isara/img/iSara[イサラ]｜バンコクのノマドエンジニア育成講座_files/introbottom.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 588px;
+  position: relative;
+  &__lead {
+    margin: 0 auto;
+    padding: 50px 0px 0px;
+    font-size: 28px;
+    text-align: center;
+  }
+  &__follow--top {
+    margin: 0px auto;
+    padding: 33px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+    width: 800px;
+  }
+  &__follow--next {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    width: 800px;
+  }
+}
+
+.c-content-center3 {
+  height: 511px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  &__title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    padding-top: 64px;
+  }
+  &__subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-top: 42px;
+  }
+  &__footer {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+}
+
+.c-content-center4 {
+  height: 800px;
+  width: 100%;
+  background-color: #FEF5E0;
+  text-align: center;
+  &__subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-top: 60px;
+  }
+  &__title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    padding-top: 5px;
+  }
+  &__footer {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+}
