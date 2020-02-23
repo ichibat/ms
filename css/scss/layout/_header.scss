@@ -1,8 +1,10 @@
  .l-container {
    width: 90%;
-   margin: 0 auto;
+   margin: auto;
+   max-width: 1100px;
+   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: white;
+   color: black;
+   font-size: 15px;
+   line-height: 1.5;
  }
-//  .l-header {
-//    display:flex;
-//    justify-content: flex-start;
-//  }

@@ -1,8 +1,41 @@
-.p-header-img {
-  width: 110px;
+.p-main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px 0;
+}
+.p-main-nav-img {
+  width:110px;
   height: auto;
 }
+.p-main-nav-menu {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 20px;
+  &-items {
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 20px;
+    // color: #262626;
+    // text-decoration: none;
+  }
+  &-items-link{
+    // font-size: 13px;
+    // font-weight: 400;
+   
+    color: #262626;
+    text-decoration: none;
+  }
+}
 
+.p-nav-right-menu{
+  display: flex;
+&-items-link {
+  color: #262626;
+  text-decoration: none;
+}
+}
 
 
 .p-section__photo{
