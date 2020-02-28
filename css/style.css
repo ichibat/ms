@@ -791,6 +791,10 @@ ul {
     font-size: 10px;
     margin-left: 20px;
     color: #616161; }
+  .p-footer-link-inner {
+    display: flex; }
+    .p-footer-link-inner-items {
+      color: red; }
 
 .u-mtm {
   margin-top: 70px; }
