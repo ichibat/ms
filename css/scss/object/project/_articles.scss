@@ -51,7 +51,7 @@
   padding-bottom: 20px;
   margin-bottom: 20px;
   &-title{
-    font-size: 24px;;
+    font-size: 24px;
     font-style: bold;
     font-weight: 600;
     margin-bottom: 10px;
@@ -341,6 +341,7 @@
   }
   &-inner {
     display:flex;
+    flex-wrap: wrap;
     align-items: center;
     align-items: flex-start;
     justify-content: end;

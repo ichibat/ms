@@ -793,6 +793,7 @@ ul {
     color: #616161; }
   .p-footer-link-inner {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     align-items: flex-start;
     justify-content: end; }
