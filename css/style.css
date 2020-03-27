@@ -785,9 +785,8 @@ ul {
 .p-footer-link {
   background: #F2F2F2;
   display: flex;
-  align-items: center;
   align-items: flex-start;
-  justify-content: start; }
+  justify-content: flex-start; }
   .p-footer-link-items {
     font-size: 10px;
     margin-left: 20px;
