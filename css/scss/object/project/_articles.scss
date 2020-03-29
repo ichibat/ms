@@ -363,14 +363,41 @@
 }
 
 
-@media(max-width: 700px) {
+@media(max-width: 700px) { 
+  .p-main-nav .p-main-nav-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #F2F2F2;
+    width: 50%;
+    height: 100%;
+    border-right: #ccc 1px solid;
+    opacity: 0.9;
+    padding: 30px;
+    transform: translateX(-500px);
+  }
+
+  .p-main-nav .p-main-nav-menu li {
+    padding: 10px;
+    border-bottom: #ccc solid 1px;
+    font-size: 14px;
+  }
+
+  .p-main-nav .p-main-nav-menu li:last-child {
+    border-bottom: 0;
+  }
+
+  .p-main-nav .p-main-nav-menu.show {
+    transform: translateX(-20px);
+  }
   .p-menu-btn {
     display: block;
   }
   .p-menu-btn:hover {
     opacity:0.5;
   }
-  .p-subnav, .p-card4 {
+  .p-subnav .p-card4 {
   grid-template-columns: repeat(2, 1fr);
 }
   .p-gallery-content{
