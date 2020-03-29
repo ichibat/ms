@@ -808,6 +808,12 @@ ul {
 
   .p-gallery-content {
     display: none; } }
+@media (max-width: 500px) {
+  .p-subnav, .p-card4 {
+    grid-template-columns: 1fr; }
+
+  .p-gallery-content {
+    display: none; } }
 .u-mtm {
   margin-top: 70px; }
 
