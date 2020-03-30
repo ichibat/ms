@@ -841,6 +841,10 @@ ul {
   .p-menu-btn:hover {
     opacity: 0.5; }
 
+  .p-nav-right-menu {
+    margin-right: 50px;
+    margin-top: 10px; }
+
   .p-subnav .p-card4 {
     grid-template-columns: repeat(2, 1fr); }
 

@@ -17,7 +17,7 @@
     <!-- Nav -->
     <nav class="p-main-nav">
   <img class="p-main-nav-img" src="../img/RE1Mu3b.png" alt="microsoft" srcset="">
-  <ul class="p-main-nav-menu show">
+  <ul class="p-main-nav-menu">
     <li class="p-main-nav-menu-items"><a class="p-main-nav-menu-items-link" href="#">Office</a></li>
     <li class="p-main-nav-menu-items"><a class="p-main-nav-menu-items-link" href="#">Windows</a></li>
     <li class="p-main-nav-menu-items"><a class="p-main-nav-menu-items-link" href="#">Surfac</a>e</li>
@@ -224,12 +224,15 @@
  </section>
 
 
-
 </div>
 
 </footer>
 
+<script>
+document.write('直接定義したJavaScriptからの書き込み');
+document.querySelector('.p-menu-btn').addEventListener('click', () => document.querySelector('.p-main-nav-menu').classList.toggle('show'));
 
+</script>
 
 </body>
 </html>
